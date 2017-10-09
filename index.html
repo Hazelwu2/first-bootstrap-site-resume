@@ -20,7 +20,11 @@
     <![endif]-->
   </head>
   <body>
-    
+    <div id="preloader">
+      <div id="status">
+        <img src="imgs/hazel-logo.jpg" alt="logo">
+      </div>
+    </div>
     <!-- 導覽列 -->
     <nav class="my-nav navbar navbar-default navbar-fixed-top">
       <div class="container">
@@ -40,13 +44,13 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav pull-right">
-            <li><a href="#home">Hazel</a></li>
-            <li><a href="#about">關於</a></li>
-            <li><a href="#work">作品集</a></li>
-            <li><a href="#employment">經歷</a></li>
-            <li><a href="#blog">文章</a></li>
-            <li><a href="#skills">技能欄</a></li>
-            <li><a href="#contact">聯絡</a></li>
+            <li><a data-scroll href="#home">Hazel</a></li>
+            <li><a data-scroll href="#about">關於</a></li>
+            <li><a data-scroll href="#work">作品集</a></li>
+            <li><a data-scroll href="#employment">經歷</a></li>
+            <li><a data-scroll href="#blog">文章</a></li>
+            <li><a data-scroll href="#skills">技能欄</a></li>
+            <li><a data-scroll href="#contact">聯絡</a></li>
           </ul>
         </div>
 
@@ -127,7 +131,7 @@
         <section id="work" class="grey-bg">
           <div class="container">
             <row>
-              <div class="col-md-3 pull-left col-sm-12">
+              <div class="col-md-3 pull-left col-xs-12">
                 <h3 class="title">
                   <span>作品集</span>
                 </h3>
@@ -135,9 +139,9 @@
                   這是歷年來的作品集
                 </p>
               </div>
-              <div class="col-md-9 content-right pull-left col-sm-12">
+              <div class="col-md-9 content-right pull-left col-xs-12">
                 <ul class="portfolio-image clearfix">
-                  <li class="col-md-6 col-sm-12">
+                  <li class="col-md-6 col-xs-12">
                     <a href="imgs/w1.png">
                       <img src="imgs/w1.png" alt="portfolio" class="img-responsive">
                       <div class="decription-wrap">
@@ -147,7 +151,7 @@
                       </div>
                     </a>
                   </li>
-                  <li class="col-md-6 col-sm-12">
+                  <li class="col-md-6 col-xs-12">
                     <a href="imgs/w2.png">
                       <img src="imgs/w2.png" alt="portfolio" class="img-responsive">
                       <div class="decription-wrap">
@@ -157,7 +161,7 @@
                       </div>
                     </a>
                   </li>
-                  <li class="col-md-6 col-sm-12">
+                  <li class="col-md-6 col-xs-12">
                     <a href="imgs/w3.png">
                       <img src="imgs/w3.png" alt="portfolio" class="img-responsive">
                       <div class="decription-wrap">
@@ -167,7 +171,7 @@
                       </div>
                     </a>
                   </li>
-                  <li class="col-md-6 col-sm-12">
+                  <li class="col-md-6 col-xs-12">
                     <a href="imgs/w4.png">
                       <img src="imgs/w4.png" class="img-responsive" alt="portfolio">
                       <div class="decription-wrap">
@@ -186,7 +190,7 @@
         <section id="employment" class="white-bg">
           <div class="container">
             <div class="row">
-              <div class="col-md-3 pull-left col-sm-12">
+              <div class="col-md-3 pull-left col-xs-12">
                 <h3 class="title">
                   <span>經歷</span>
                 </h3>
@@ -194,10 +198,10 @@
                   這是我的工作經歷
                 </p>
               </div>
-              <div class="col-md-9 content-right pull-left col-sm-12">
+              <div class="col-md-9 content-right pull-left col-xs-12">
                 <div class="row">
                   <ul class="listing-item">
-                    <li class="col-md-6 pull-left col-sm-12">
+                    <li class="col-md-6 pull-left col-xs-12">
                       <div class="wrap-card">
                         <div class="card">
                           <h2 class="year">2016-2017</h2>
@@ -210,7 +214,7 @@
                         </div>
                       </div>
                     </li>
-                    <li class="col-md-6 pull-left col-sm-12">
+                    <li class="col-md-6 pull-left col-xs-12">
                       <div class="wrap-card">
                         <div class="card">
                           <h2 class="year">2009-2016</h2>
@@ -458,5 +462,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

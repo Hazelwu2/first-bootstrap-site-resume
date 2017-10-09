@@ -2,7 +2,8 @@
 @media screen and (max-width: 1023px) {
 
   .navbar-collapse {
-    background: rgba(255, 255, 255, 0.8);
+    /*background: rgba(255, 255, 255, 0.8);*/
+    background: #2f2f2f;
   }
   #home {
     min-height: 400px;
@@ -12,7 +13,7 @@
   }
   
   .hello-content {
-    min-width: 250px;
+    min-width: 280px;
     padding: 25px;
   }
 
